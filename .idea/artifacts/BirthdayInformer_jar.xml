@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="BirthdayInformer:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/BirthdayInformer_jar</output-path>
+    <root id="archive" name="BirthdayInformer.jar">
+      <element id="module-output" name="BirthdayInformer" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/com/rechit/birthdayinformer/basic/lib/commons-lang3-3.9.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
