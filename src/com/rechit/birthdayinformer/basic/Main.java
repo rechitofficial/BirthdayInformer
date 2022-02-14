@@ -1,6 +1,8 @@
 package com.rechit.birthdayinformer.basic;
 
+import com.rechit.birthdayinformer.basic.birthday.ListItemsNeeded;
 import com.rechit.birthdayinformer.basic.birthday.ListKnownBirthdays;
+import com.rechit.birthdayinformer.basic.gifts.ListOfGifts;
 import com.rechit.birthdayinformer.basic.wishes.ListOfWishes;
 import org.apache.commons.lang3.time.DateUtils;
 
@@ -15,7 +17,12 @@ public class Main {
         System.out.println("Hari ini hari " + today);
         Date tomorrow = DateUtils.addDays(today, 1);
         System.out.println("Besok itu hari " + tomorrow);
+        //ARRAY//
         ListOfWishes.showListOfWishes();
+        //COLLECTION//
+        ListOfGifts.showGifts();
+        //GENERIC//
+        ListItemsNeeded.showItems();
 
     }
 }
